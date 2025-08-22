@@ -13,7 +13,8 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/garrito"
+        android:src="@drawable/cp"
         android:id="@+id/ImgMenuPrincipal"
+        android:scaleType="centerCrop"
         />
 </LinearLayout>
