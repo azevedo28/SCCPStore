@@ -33,7 +33,7 @@ public class ItensVendaActivity extends AppCompatActivity {
 
         idToolBaritens = findViewById(R.id.idTooBarItens);
 
-        idTabLayoutVendas = findViewById(R.id.idViewPagerVendas);
+        idViewPagerVendas = findViewById(R.id.idViewPagerVendas);
         idTabLayoutVendas = findViewById(R.id.idTabLayoutVendas);
 
         idToolBaritens.setNavigationOnClickListener(new View.OnClickListener() {
@@ -44,6 +44,9 @@ public class ItensVendaActivity extends AppCompatActivity {
             }
         });
 
+        AdapterItensVenda adapterItensVenda = new AdapterItensVenda(fragmentActivity this);
+
+        idViewPagerVendas.setAdapter(adapterItensVenda);
 
 
     }
