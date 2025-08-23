@@ -8,6 +8,16 @@
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MenuPrincipalActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loucos pelo timao"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        />
 
     <ImageView
         android:layout_width="150dp"
@@ -17,4 +27,8 @@
         android:id="@+id/ImgMenuPrincipal"
         android:scaleType="centerCrop"
         />
+
+
+
+
 </LinearLayout>
